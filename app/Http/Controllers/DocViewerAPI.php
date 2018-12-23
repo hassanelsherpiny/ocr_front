@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class DocViewerAPI extends Controller
 {
     public $client;
-    private $extentionsMap=array("jpeg"=>"images","jpg"=>"images","pdf"=>"pdfs");
+    private $extentionsMap=array("jpeg"=>"images","jpg"=>"images","pdf"=>"pdfs","tif"=>"images","PNG"=>"images","png"=>"images");
 
     public function __construct(\Solarium\Client $client)
     {
@@ -45,8 +45,12 @@ class DocViewerAPI extends Controller
     {
         
         $filter = json_decode($request->input('pq_filter'));
+		//print_r($filter);
+		//return 1;
+		
         // if(array_key_exists())
-        if(property_exists("data",$filter)&&property_exists("dataIndx",$filter->data[0]))
+        //if(gettype($filter)=="object"&&property_exists("dataIndx",$filter->data[0]))
+		if(gettype($filter)=="object"&&strlen($filter->data[0]->value)>0)
         {
         $srchField=$filter->data[0]->dataIndx;
         $srchValue=$filter->data[0]->value;
@@ -151,7 +155,7 @@ class DocViewerAPI extends Controller
             );
         }
 		//http://localhost:8080/extract?path=samples/D1.tif
-		$app_path="C:/xampp/htdocs/laravel";
+		$app_path="C:/xampp/htdocs/ocr_front";
 		$file_path=$app_path."/storage/app/files/".$fileExtention."/".$filename;
 		$backEndUrl='http://localhost:8080/extract?path='.$file_path;
 		//curl start

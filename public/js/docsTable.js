@@ -1,14 +1,20 @@
 function initDetail(ui) {
     var rowData = ui.rowData;
     console.log(rowData);
+    // var responseData=;
+    var $detail = $("<div style='overflow-y: scroll; height:400px;' id='pq-detail' tabindex='0'>" + highlight("/hocr.jpg", 457-20  ,108 , rechieght = 125-108, recwidth =489-457+20 ) + "</div>");
+    return $detail;
     var content;
     $.ajax({
-        url: "DOCSAPI/details",
+        url: "/DOCSAPI/details",
         method: "GET",
         data: {
             id: rowData.id
         },
         success: function (responseData) {
+           console.log("<div id='pq-detail' tabindex='0'>" + highlight(responseData.imageSrc, responseData.fromtTopLefX, responseData.fromtTopLefY, rechieght = 1, recwidth = 1));
+             var $detail = $("<div id='pq-detail' tabindex='0'>" + highlight(responseData.imageSrc, responseData.fromtTopLefX, responseData.fromtTopLefY, rechieght = 1, recwidth = 1) + "</div>");
+             return $detail;
             if (responseData.type == "image") {
                 return $("<div id='pq-detail' tabindex='0'>" + highlight(responseData.imageSrc, responseData.fromtTopLefX, responseData.fromtTopLefY, rechieght = 1, recwidth = 1) + "</div>");
 
@@ -73,14 +79,13 @@ $(function () {
             width: '20%',
             title: "File",
             dataIndx: "id",
-            /*render:
+            render:
             function (ui) {
                 console.log(ui);
                 var id=ui.rowData.id;
-                var iconType=toLowerCase(id.substr(id.length - 3))+".png";
+                var iconType=(id.substr(id.length - 3))+".png";
                return "<div id='"+id+"' ><a href='DOCSAPI/down?fileName="+id+"'  target='_blank'><img style='width:20%;height:20%;' src = '/"+iconType+"'' /></a></div>"; 
             }
-			*/
 
         }
     ];
@@ -90,6 +95,10 @@ $(function () {
     }, {
         "content": "testIMG",
         "id": "imageTest.png"
+    },
+    {
+        "content": "testhocr",
+        "id": "hocr.jpg"
     }]
     //define dataModel
     var dataModel = {
@@ -126,6 +135,7 @@ $(function () {
         title: '\
 <form action="/upload" method="post">\
 Files(can add more than one):<br>\
+<input type="hidden" name="_csrf" value="<your_csrf_token>" />\
 <input class="ui-widget-header ui-widget-header ui-state-active" type="file" id="fileupload" name="files[]" data-url="/upload" multiple />\
 <p id="loading"></p>\
 </form>',
