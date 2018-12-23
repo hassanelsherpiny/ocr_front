@@ -1,0 +1,1091 @@
+2018-12-17 09:08:57.064 INFO  (main) [   ] o.e.j.u.log Logging initialized @5173ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-12-17 09:08:58.254 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_92-b14
+2018-12-17 09:08:58.422 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///E:/Hassan/Solr/solr-7.5.0/server/contexts/] at interval 0
+2018-12-17 09:08:59.415 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-12-17 09:08:59.489 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2018-12-17 09:08:59.489 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2018-12-17 09:08:59.536 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2018-12-17 09:08:59.655 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2018-12-17 09:08:59.760 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2018-12-17 09:08:59.857 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.5.0
+2018-12-17 09:08:59.859 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-12-17 09:08:59.859 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: E:\Hassan\Solr\solr-7.5.0
+2018-12-17 09:08:59.883 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-12-17T09:08:59.883Z
+2018-12-17 09:09:00.175 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: E:\Hassan\Solr\solr-7.5.0\server\solr
+2018-12-17 09:09:00.258 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from E:\Hassan\Solr\solr-7.5.0\server\solr\solr.xml
+2018-12-17 09:09:00.836 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c, but no JMX reporters were configured - adding default JMX reporter.
+2018-12-17 09:09:13.468 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-12-17 09:09:13.471 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2018-12-17 09:09:13.685 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2018-12-17 09:09:13.685 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2018-12-17 09:09:13.699 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2018-12-17 09:09:14.129 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath E:\Hassan\Solr\solr-7.5.0\server\solr
+2018-12-17 09:09:14.131 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [ocr, test, test-2]
+2018-12-17 09:09:14.747 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.c.SolrResourceLoader [test-2] Added 56 libs to classloader, from paths: [/E:/Hassan/Solr/solr-7.5.0/contrib/clustering/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/extraction/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/langid/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/velocity/lib, /E:/Hassan/Solr/solr-7.5.0/dist]
+2018-12-17 09:09:14.747 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.c.SolrResourceLoader [test] Added 56 libs to classloader, from paths: [/E:/Hassan/Solr/solr-7.5.0/contrib/clustering/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/extraction/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/langid/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/velocity/lib, /E:/Hassan/Solr/solr-7.5.0/dist]
+2018-12-17 09:09:14.747 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.c.SolrResourceLoader [ocr] Added 56 libs to classloader, from paths: [/E:/Hassan/Solr/solr-7.5.0/contrib/clustering/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/extraction/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/langid/lib, /E:/Hassan/Solr/solr-7.5.0/contrib/velocity/lib, /E:/Hassan/Solr/solr-7.5.0/dist]
+2018-12-17 09:09:15.814 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@2e377400{/solr,file:///E:/Hassan/Solr/solr-7.5.0/server/solr-webapp/webapp/,AVAILABLE}{E:\Hassan\Solr\solr-7.5.0\server/solr-webapp/webapp}
+2018-12-17 09:09:15.856 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@45c8d09f{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-12-17 09:09:15.856 INFO  (main) [   ] o.e.j.s.Server Started @23967ms
+2018-12-17 09:09:16.655 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.5.0
+2018-12-17 09:09:16.658 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.5.0
+2018-12-17 09:09:16.672 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.5.0
+2018-12-17 09:09:16.986 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.s.IndexSchema [test] Schema name=default-config
+2018-12-17 09:09:16.986 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.s.IndexSchema [test-2] Schema name=default-config
+2018-12-17 09:09:16.986 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.s.IndexSchema [ocr] Schema name=default-config
+2018-12-17 09:09:18.766 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=519
+2018-12-17 09:09:18.920 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-12-17 09:09:18.932 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-12-17 09:09:19.001 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.c.CoreContainer Creating SolrCore 'test' using configuration from instancedir E:\Hassan\Solr\solr-7.5.0\server\solr\test, trusted=true
+2018-12-17 09:09:19.002 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.c.CoreContainer Creating SolrCore 'test-2' using configuration from instancedir E:\Hassan\Solr\solr-7.5.0\server\solr\test-2, trusted=true
+2018-12-17 09:09:19.252 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-12-17 09:09:19.308 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.test-2' (registry 'solr.core.test-2') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2018-12-17 09:09:19.311 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.test' (registry 'solr.core.test') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2018-12-17 09:09:19.331 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.c.CoreContainer Creating SolrCore 'ocr' using configuration from instancedir E:\Hassan\Solr\solr-7.5.0\server\solr\ocr, trusted=true
+2018-12-17 09:09:19.331 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.ocr' (registry 'solr.core.ocr') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2018-12-17 09:09:19.379 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.c.SolrCore [[test-2] ] Opening new SolrCore at [E:\Hassan\Solr\solr-7.5.0\server\solr\test-2], dataDir=[E:\Hassan\Solr\solr-7.5.0\server\solr\test-2\data\]
+2018-12-17 09:09:19.379 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.c.SolrCore [[ocr] ] Opening new SolrCore at [E:\Hassan\Solr\solr-7.5.0\server\solr\ocr], dataDir=[E:\Hassan\Solr\solr-7.5.0\server\solr\ocr\data\]
+2018-12-17 09:09:19.379 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.c.SolrCore [[test] ] Opening new SolrCore at [E:\Hassan\Solr\solr-7.5.0\server\solr\test], dataDir=[E:\Hassan\Solr\solr-7.5.0\server\solr\test\data\]
+2018-12-17 09:09:19.604 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-12-17 09:09:19.604 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-12-17 09:09:19.604 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-12-17 09:09:22.552 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545037762044} status=0 QTime=1
+2018-12-17 09:09:22.787 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545037762045} status=0 QTime=235
+2018-12-17 09:09:22.829 INFO  (qtp296347592-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545037762045} status=0 QTime=278
+2018-12-17 09:09:25.291 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-12-17 09:09:25.291 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-12-17 09:09:25.292 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-12-17 09:09:25.292 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-12-17 09:09:25.542 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2018-12-17 09:09:25.542 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2018-12-17 09:09:25.543 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-17 09:09:25.543 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-17 09:09:26.155 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@676861f3[ocr] main]
+2018-12-17 09:09:26.283 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: E:\Hassan\Solr\solr-7.5.0\server\solr\ocr\conf
+2018-12-17 09:09:26.369 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-12-17 09:09:26.404 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-12-17 09:09:26.454 INFO  (coreLoadExecutor-9-thread-1) [   x:ocr] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-17 09:09:26.471 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-12-17 09:09:26.471 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-12-17 09:09:26.474 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@676861f3[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1)))}
+2018-12-17 09:09:26.475 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-17 09:09:26.475 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-12-17 09:09:26.514 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@676861f3[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1)))}
+2018-12-17 09:09:26.585 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2018-12-17 09:09:26.585 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-12-17 09:09:26.603 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.s.SolrIndexSearcher Opening [Searcher@2b502e4b[test] main]
+2018-12-17 09:09:26.607 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: E:\Hassan\Solr\solr-7.5.0\server\solr\test\conf
+2018-12-17 09:09:26.608 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-12-17 09:09:26.609 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-12-17 09:09:26.611 INFO  (coreLoadExecutor-9-thread-2) [   x:test] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-17 09:09:26.611 INFO  (searcherExecutor-10-thread-1-processing-x:test) [   x:test] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2b502e4b[test] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(7.5.0):C10) Uninverting(_1(7.5.0):C1) Uninverting(_c(7.5.0):C1) Uninverting(_d(7.5.0):C1) Uninverting(_e(7.5.0):C1) Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_h(7.5.0):C1) Uninverting(_i(7.5.0):C1) Uninverting(_j(7.5.0):C1)))}
+2018-12-17 09:09:26.611 INFO  (searcherExecutor-10-thread-1-processing-x:test) [   x:test] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-17 09:09:26.611 INFO  (searcherExecutor-10-thread-1-processing-x:test) [   x:test] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-12-17 09:09:26.621 INFO  (searcherExecutor-10-thread-1-processing-x:test) [   x:test] o.a.s.c.SolrCore [test] Registered new searcher Searcher@2b502e4b[test] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(7.5.0):C10) Uninverting(_1(7.5.0):C1) Uninverting(_c(7.5.0):C1) Uninverting(_d(7.5.0):C1) Uninverting(_e(7.5.0):C1) Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_h(7.5.0):C1) Uninverting(_i(7.5.0):C1) Uninverting(_j(7.5.0):C1)))}
+2018-12-17 09:09:26.990 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.s.SolrIndexSearcher Opening [Searcher@3ba58cc[test-2] main]
+2018-12-17 09:09:26.993 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: E:\Hassan\Solr\solr-7.5.0\server\solr\test-2\conf
+2018-12-17 09:09:26.994 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-12-17 09:09:26.995 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-12-17 09:09:26.998 INFO  (coreLoadExecutor-9-thread-3) [   x:test-2] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-12-17 09:09:26.998 INFO  (searcherExecutor-11-thread-1-processing-x:test-2) [   x:test-2] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3ba58cc[test-2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_29(7.5.0):C37) Uninverting(_1z(7.5.0):C37) Uninverting(_2a(7.5.0):C1) Uninverting(_2b(7.5.0):C1) Uninverting(_2c(7.5.0):C1) Uninverting(_2d(7.5.0):C1) Uninverting(_2e(7.5.0):C1) Uninverting(_2f(7.5.0):C1)))}
+2018-12-17 09:09:26.999 INFO  (searcherExecutor-11-thread-1-processing-x:test-2) [   x:test-2] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-17 09:09:26.999 INFO  (searcherExecutor-11-thread-1-processing-x:test-2) [   x:test-2] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-12-17 09:09:27.004 INFO  (searcherExecutor-11-thread-1-processing-x:test-2) [   x:test-2] o.a.s.c.SolrCore [test-2] Registered new searcher Searcher@3ba58cc[test-2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_29(7.5.0):C37) Uninverting(_1z(7.5.0):C37) Uninverting(_2a(7.5.0):C1) Uninverting(_2b(7.5.0):C1) Uninverting(_2c(7.5.0):C1) Uninverting(_2d(7.5.0):C1) Uninverting(_2e(7.5.0):C1) Uninverting(_2f(7.5.0):C1)))}
+2018-12-17 09:10:06.550 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545037762044} status=0 QTime=0
+2018-12-17 09:10:06.577 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1545037762045&ts=1545037762045} status=503 QTime=11
+2018-12-17 09:10:06.615 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/replication params={wt=json&command=details&_=1545037806543} status=0 QTime=57
+2018-12-17 09:10:06.582 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1545037806543} status=0 QTime=26
+2018-12-17 09:10:06.756 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545037762045} status=0 QTime=202
+2018-12-17 09:10:06.806 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/system params={wt=json&_=1545037806543} status=0 QTime=243
+2018-12-17 09:10:09.962 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545037762044} status=0 QTime=0
+2018-12-17 09:10:10.005 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545037806543} status=0 QTime=39
+2018-12-17 09:10:10.007 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545037809930} status=0 QTime=37
+2018-12-17 09:10:10.181 INFO  (qtp296347592-42) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545037762045} status=0 QTime=218
+2018-12-17 09:10:10.201 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545037806543} status=0 QTime=43
+2018-12-17 09:13:49.155 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545037762044} status=0 QTime=0
+2018-12-17 09:13:49.303 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545037762045} status=0 QTime=142
+2018-12-17 09:13:51.351 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545038029112} hits=2 status=0 QTime=98
+2018-12-17 09:14:04.350 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&wt=php} hits=2 status=0 QTime=39
+2018-12-17 09:14:23.607 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&wt=php} hits=2 status=0 QTime=1
+2018-12-17 09:14:31.144 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&wt=php} hits=2 status=0 QTime=0
+2018-12-17 09:14:58.051 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=61
+2018-12-17 09:15:18.999 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=13
+2018-12-17 09:15:34.358 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=8
+2018-12-17 09:17:09.195 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=8
+2018-12-17 09:19:29.328 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=11
+2018-12-17 09:25:10.972 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=6
+2018-12-17 12:05:13.186 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545048312979} status=0 QTime=0
+2018-12-17 12:05:13.324 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545048312980} status=0 QTime=137
+2018-12-17 12:05:13.418 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545048312980} status=0 QTime=91
+2018-12-17 12:05:49.652 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545048312979} status=0 QTime=0
+2018-12-17 12:05:49.661 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/replication params={wt=json&command=details&_=1545048349642} status=0 QTime=1
+2018-12-17 12:05:49.665 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1545048312980&ts=1545048312980} status=503 QTime=0
+2018-12-17 12:05:49.673 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1545048349641} status=0 QTime=4
+2018-12-17 12:05:49.835 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545048312980} status=0 QTime=180
+2018-12-17 12:05:49.858 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/system params={wt=json&_=1545048349642} status=0 QTime=188
+2018-12-17 12:05:51.242 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545048312979} status=0 QTime=0
+2018-12-17 12:05:51.370 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545048312980} status=0 QTime=127
+2018-12-17 12:05:57.218 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545048351200} hits=2 status=0 QTime=0
+2018-12-17 12:07:09.618 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[samples/arab-doc-1.jpg (1620100702062772224)]} 0 110
+2018-12-17 12:07:09.669 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620100702188601344,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 12:07:09.669 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620100702188601344
+2018-12-17 12:07:09.928 INFO  (qtp296347592-16) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@d175c8d[ocr] main]
+2018-12-17 12:07:09.928 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 12:07:09.928 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@d175c8d[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1)))}
+2018-12-17 12:07:09.928 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-17 12:07:09.983 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@d175c8d[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1)))}
+2018-12-17 12:07:09.989 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 311
+2018-12-17 12:11:19.848 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545048351200} hits=3 status=0 QTime=0
+2018-12-17 12:12:05.600 INFO  (qtp296347592-19) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545048351200} hits=3 status=0 QTime=0
+2018-12-17 12:12:06.487 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545048351200} hits=3 status=0 QTime=0
+2018-12-17 12:12:08.933 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545048728753} status=0 QTime=0
+2018-12-17 12:12:09.096 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545048728754} status=0 QTime=158
+2018-12-17 12:12:10.551 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545048728879} hits=3 status=0 QTime=0
+2018-12-17 12:13:51.630 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620101123675258880,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 12:13:51.631 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2018-12-17 12:13:51.634 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 12:13:51.636 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true+-H+"Content-Type:+text/xml"+--data-binary+'<delete><query>*:*</query></delete>'}{commit=} 0 6
+2018-12-17 12:13:56.292 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545048728879} hits=3 status=0 QTime=0
+2018-12-17 12:13:58.664 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545048838512} status=0 QTime=0
+2018-12-17 12:13:58.803 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545048838513} status=0 QTime=137
+2018-12-17 12:13:59.486 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545048838621} hits=3 status=0 QTime=0
+2018-12-17 12:14:13.941 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620101147070038016,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 12:14:13.941 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2018-12-17 12:14:13.942 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 12:14:13.943 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true+-H+"Content-Type:+text/xml"+--data-binary+'<delete><query>*:*</query></delete>'}{commit=} 0 2
+2018-12-17 12:14:16.278 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620101149520560128,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 12:14:16.278 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2018-12-17 12:14:16.279 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 12:14:16.279 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true+-H+"Content-Type:+text/xml"+--data-binary+'<delete><query>*:*</query></delete>'}{commit=} 0 0
+2018-12-17 12:14:16.790 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620101150057431040,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 12:14:16.791 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2018-12-17 12:14:16.791 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 12:14:16.791 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true+-H+"Content-Type:+text/xml"+--data-binary+'<delete><query>*:*</query></delete>'}{commit=} 0 0
+2018-12-17 12:14:17.000 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620101150277632000,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 12:14:17.001 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2018-12-17 12:14:17.001 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 12:14:17.001 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true+-H+"Content-Type:+text/xml"+--data-binary+'<delete><query>*:*</query></delete>'}{commit=} 0 0
+2018-12-17 12:14:22.115 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545048838512} status=0 QTime=0
+2018-12-17 12:14:22.122 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/replication params={wt=json&command=details&_=1545048862107} status=0 QTime=1
+2018-12-17 12:14:22.265 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545048838513} status=0 QTime=147
+2018-12-17 12:14:23.528 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545048838512} status=0 QTime=0
+2018-12-17 12:14:23.633 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545048838513} status=0 QTime=103
+2018-12-17 12:14:24.467 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545048838621} hits=3 status=0 QTime=0
+2018-12-17 12:14:30.355 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*} hits=3 status=0 QTime=0
+2018-12-17 12:14:39.214 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620101173569650688,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 12:14:39.214 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2018-12-17 12:14:39.215 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 12:14:39.215 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true+-H+"Content-Type:+text/xml"+--data-binary+'<delete><query>*:*</query></delete>'}{commit=} 0 2
+2018-12-17 12:14:49.606 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*} hits=3 status=0 QTime=0
+2018-12-17 12:47:14.589 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=3 status=0 QTime=9
+2018-12-17 12:48:53.056 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=3 status=0 QTime=6
+2018-12-17 12:49:01.954 INFO  (qtp296347592-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545050941726} status=0 QTime=0
+2018-12-17 12:49:02.099 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545050941726} status=0 QTime=141
+2018-12-17 12:49:02.204 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545050941726} status=0 QTime=102
+2018-12-17 12:49:03.888 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545050941726} status=0 QTime=0
+2018-12-17 12:49:03.892 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1545050943880} status=0 QTime=0
+2018-12-17 12:49:03.897 INFO  (qtp296347592-19) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/replication params={wt=json&command=details&_=1545050943881} status=0 QTime=1
+2018-12-17 12:49:03.905 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1545050941726&ts=1545050941726} status=503 QTime=0
+2018-12-17 12:49:04.088 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545050941726} status=0 QTime=199
+2018-12-17 12:49:04.112 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/system params={wt=json&_=1545050943881} status=0 QTime=213
+2018-12-17 12:49:05.620 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545050941726} status=0 QTime=0
+2018-12-17 12:49:05.741 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545050941726} status=0 QTime=119
+2018-12-17 12:49:08.301 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545050945578} hits=3 status=0 QTime=0
+2018-12-17 12:50:54.149 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545050945578} hits=3 status=0 QTime=0
+2018-12-17 12:50:54.966 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545050945578} hits=3 status=0 QTime=0
+2018-12-17 12:50:55.156 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545050945578} hits=3 status=0 QTime=0
+2018-12-17 12:50:55.350 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545050945578} hits=3 status=0 QTime=0
+2018-12-17 12:50:56.855 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545051056696} status=0 QTime=0
+2018-12-17 12:50:57.004 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545051056697} status=0 QTime=145
+2018-12-17 12:51:01.697 INFO  (qtp296347592-19) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545051056810} hits=3 status=0 QTime=0
+2018-12-17 12:51:36.763 INFO  (qtp296347592-19) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[samples/D1.tif (1620103498839359488)]} 0 2
+2018-12-17 12:51:36.795 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620103498871865344,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 12:51:36.795 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620103498871865344
+2018-12-17 12:51:37.001 INFO  (qtp296347592-40) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@1bd49718[ocr] main]
+2018-12-17 12:51:37.001 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1bd49718[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1) Uninverting(_b(7.5.0):C1)))}
+2018-12-17 12:51:37.001 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-17 12:51:37.001 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 12:51:37.017 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@1bd49718[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1) Uninverting(_b(7.5.0):C1)))}
+2018-12-17 12:51:37.017 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 226
+2018-12-17 12:51:43.770 INFO  (qtp296347592-19) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545051056810} hits=4 status=0 QTime=0
+2018-12-17 12:52:04.578 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=4 status=0 QTime=10
+2018-12-17 13:03:25.227 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[samples/D1.tif (1620104241715609600)]} 0 2
+2018-12-17 13:03:25.230 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620104241720852480,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 13:03:25.230 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620104241720852480
+2018-12-17 13:03:25.465 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@398ad3d7[ocr] main]
+2018-12-17 13:03:25.468 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@398ad3d7[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1) Uninverting(_c(7.5.0):C1)))}
+2018-12-17 13:03:25.469 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-17 13:03:25.472 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 13:03:25.476 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@398ad3d7[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1) Uninverting(_c(7.5.0):C1)))}
+2018-12-17 13:03:25.498 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 268
+2018-12-17 13:10:04.189 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/laravel/storage/app/files/pdfs/1545051926Cover Letter.pdf (1620104660057587712)]} 0 2
+2018-12-17 13:10:04.207 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620104660078559232,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 13:10:04.207 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620104660078559232
+2018-12-17 13:10:04.392 INFO  (qtp296347592-40) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@199016cd[ocr] main]
+2018-12-17 13:10:04.395 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@199016cd[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1) Uninverting(_c(7.5.0):C1) Uninverting(_d(7.5.0):C1)))}
+2018-12-17 13:10:04.395 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-17 13:10:04.398 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 13:10:04.401 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@199016cd[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1) Uninverting(_c(7.5.0):C1) Uninverting(_d(7.5.0):C1)))}
+2018-12-17 13:10:04.401 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 195
+2018-12-17 13:15:01.390 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/laravel/storage/app/files/images/1545052492arab-doc-1.jpg (1620104971694374912)]} 0 3
+2018-12-17 13:15:01.407 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620104971715346432,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-17 13:15:01.407 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620104971715346432
+2018-12-17 13:15:01.687 INFO  (qtp296347592-41) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@7583ad60[ocr] main]
+2018-12-17 13:15:01.691 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7583ad60[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1) Uninverting(_c(7.5.0):C1) Uninverting(_d(7.5.0):C1) Uninverting(_e(7.5.0):C1)))}
+2018-12-17 13:15:01.691 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-17 13:15:01.696 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-17 13:15:01.697 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@7583ad60[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8(7.5.0):C1) Uninverting(_9(7.5.0):C1) Uninverting(_a(7.5.0):C1) Uninverting(_c(7.5.0):C1) Uninverting(_d(7.5.0):C1) Uninverting(_e(7.5.0):C1)))}
+2018-12-17 13:15:01.697 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 290
+2018-12-18 06:45:54.437 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545051056810} hits=6 status=0 QTime=19
+2018-12-18 07:31:04.706 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=10
+2018-12-18 07:34:42.292 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=12
+2018-12-18 07:36:06.816 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=8
+2018-12-18 07:39:40.636 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620174470523125760,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 07:39:40.636 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2018-12-18 07:39:40.641 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 07:39:40.674 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true+-H+"Content-Type:+text/xml"+--data-binary+'<delete><query>*:*</query></delete>'}{commit=} 0 40
+2018-12-18 07:39:46.917 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545118786695} status=0 QTime=1
+2018-12-18 07:39:47.073 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545118786696} status=0 QTime=155
+2018-12-18 07:39:48.483 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545118786867} hits=6 status=0 QTime=0
+2018-12-18 07:40:17.224 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*} hits=6 status=0 QTime=0
+2018-12-18 07:40:25.271 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*} hits=6 status=0 QTime=0
+2018-12-18 07:40:30.065 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620174522354237440,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 07:40:30.066 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2018-12-18 07:40:30.067 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 07:40:30.067 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true+-H+"Content-Type:+text/xml"+--data-binary+'<delete><query>*:*</query></delete>'}{commit=} 0 2
+2018-12-18 07:40:35.753 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545118835535} status=0 QTime=0
+2018-12-18 07:40:35.927 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545118835535} status=0 QTime=171
+2018-12-18 07:40:39.940 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545118835535} status=0 QTime=0
+2018-12-18 07:40:39.949 INFO  (qtp296347592-22) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1545118839930} status=0 QTime=3
+2018-12-18 07:40:39.956 INFO  (qtp296347592-40) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/replication params={wt=json&command=details&_=1545118839931} status=0 QTime=5
+2018-12-18 07:40:39.962 INFO  (qtp296347592-17) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1545118835535&ts=1545118835535} status=503 QTime=1
+2018-12-18 07:40:40.132 INFO  (qtp296347592-21) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/system params={wt=json&_=1545118839930} status=0 QTime=178
+2018-12-18 07:40:40.184 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545118835535} status=0 QTime=243
+2018-12-18 07:42:10.092 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@3a7ba889[ocr] realtime]
+2018-12-18 07:42:10.094 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620174627242246144,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 07:42:10.094 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620174627242246144
+2018-12-18 07:42:10.157 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@2e057145[ocr] main]
+2018-12-18 07:42:10.162 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 07:42:10.163 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2e057145[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-18 07:42:10.163 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-18 07:42:10.169 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@2e057145[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-18 07:42:10.285 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true}{deleteByQuery=*:* (-1620174627141582848),commit=} 0 443
+2018-12-18 07:42:24.523 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545118835535} status=0 QTime=0
+2018-12-18 07:42:24.558 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1545118839930} status=0 QTime=1
+2018-12-18 07:42:24.582 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/replication params={wt=json&command=details&_=1545118839931} status=0 QTime=2
+2018-12-18 07:42:24.591 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1545118835535&ts=1545118835535} status=503 QTime=1
+2018-12-18 07:42:24.754 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545118835535} status=0 QTime=224
+2018-12-18 07:42:24.807 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/system params={wt=json&_=1545118839930} status=0 QTime=222
+2018-12-18 07:42:26.056 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545118835535} status=0 QTime=0
+2018-12-18 07:42:26.180 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545118835535} status=0 QTime=122
+2018-12-18 07:42:27.273 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545118835712} hits=0 status=0 QTime=19
+2018-12-18 07:56:35.256 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=0 status=0 QTime=0
+2018-12-18 07:58:40.825 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[samples/D1.tif (1620175666095849472)]} 0 4
+2018-12-18 07:58:40.844 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620175666118918144,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 07:58:40.844 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620175666118918144
+2018-12-18 07:58:41.013 INFO  (qtp296347592-18) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@721e881d[ocr] main]
+2018-12-18 07:58:41.014 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@721e881d[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1)))}
+2018-12-18 07:58:41.014 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-18 07:58:41.018 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@721e881d[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1)))}
+2018-12-18 07:58:41.021 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 07:58:41.021 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 178
+2018-12-18 08:00:05.729 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[samples/arab-doc-1.jpg (1620175755124146176)]} 0 3
+2018-12-18 08:00:05.731 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620175755129389056,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 08:00:05.731 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620175755129389056
+2018-12-18 08:00:05.977 INFO  (qtp296347592-16) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@58f780ba[ocr] main]
+2018-12-18 08:00:05.979 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@58f780ba[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1)))}
+2018-12-18 08:00:05.980 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-18 08:00:05.982 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 08:00:05.986 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@58f780ba[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1)))}
+2018-12-18 08:00:05.987 INFO  (qtp296347592-16) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 255
+2018-12-18 08:01:28.972 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=6
+2018-12-18 09:17:51.852 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[samples/image_1_ara.PNG (1620180647909785600)]} 0 2
+2018-12-18 09:17:51.870 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620180647930757120,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 09:17:51.870 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620180647930757120
+2018-12-18 09:17:52.069 INFO  (qtp296347592-17) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@66835553[ocr] main]
+2018-12-18 09:17:52.070 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@66835553[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_h(7.5.0):C1)))}
+2018-12-18 09:17:52.071 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-18 09:17:52.072 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 09:17:52.073 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@66835553[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_h(7.5.0):C1)))}
+2018-12-18 09:17:52.073 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 203
+2018-12-18 09:18:00.657 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=3 status=0 QTime=6
+2018-12-18 10:54:22.162 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[samples/image_1_ara.PNG (1620186719489884160)]} 0 3
+2018-12-18 10:54:22.179 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620186719509807104,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 10:54:22.180 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620186719509807104
+2018-12-18 10:54:22.392 INFO  (qtp296347592-21) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@4f785506[ocr] main]
+2018-12-18 10:54:22.395 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4f785506[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_i(7.5.0):C1)))}
+2018-12-18 10:54:22.397 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-18 10:54:22.399 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 10:54:22.402 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@4f785506[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_i(7.5.0):C1)))}
+2018-12-18 10:54:22.417 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 238
+2018-12-18 12:56:51.274 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545118835712} hits=3 status=0 QTime=1
+2018-12-18 12:59:39.441 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545118835712} hits=3 status=0 QTime=0
+2018-12-18 12:59:40.825 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545118835712} hits=3 status=0 QTime=0
+2018-12-18 12:59:43.795 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545137983619} status=0 QTime=0
+2018-12-18 12:59:43.953 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545137983619} status=0 QTime=157
+2018-12-18 12:59:45.812 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545137983743} hits=3 status=0 QTime=0
+2018-12-18 13:02:58.255 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/ocr_front/storage/app/files/pdfs/1545138141arabic.pdf (1620194810398769152)]} 0 3
+2018-12-18 13:02:58.273 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620194810420789248,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 13:02:58.273 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620194810420789248
+2018-12-18 13:02:58.552 INFO  (qtp296347592-40) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@6e47868b[ocr] main]
+2018-12-18 13:02:58.555 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6e47868b[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_i(7.5.0):C1) Uninverting(_j(7.5.0):C1)))}
+2018-12-18 13:02:58.555 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-18 13:02:58.560 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@6e47868b[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_i(7.5.0):C1) Uninverting(_j(7.5.0):C1)))}
+2018-12-18 13:02:58.568 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 13:02:58.569 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 296
+2018-12-18 13:03:16.267 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545137983743} hits=4 status=0 QTime=0
+2018-12-18 13:03:31.071 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=4 status=0 QTime=5
+2018-12-18 13:20:48.591 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[samples/image_1_ara.PNG (1620195932728459264)]} 0 2
+2018-12-18 13:20:48.608 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620195932748382208,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-18 13:20:48.608 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620195932748382208
+2018-12-18 13:20:48.740 INFO  (qtp296347592-40) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@23de3dd3[ocr] main]
+2018-12-18 13:20:48.741 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@23de3dd3[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_j(7.5.0):C1) Uninverting(_k(7.5.0):C1)))}
+2018-12-18 13:20:48.742 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-18 13:20:48.745 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-18 13:20:48.745 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@23de3dd3[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_j(7.5.0):C1) Uninverting(_k(7.5.0):C1)))}
+2018-12-18 13:20:48.758 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 149
+2018-12-19 07:34:17.422 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=4 status=0 QTime=9
+2018-12-19 08:25:42.946 INFO  (qtp296347592-19) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=4 status=0 QTime=9
+2018-12-19 08:33:44.051 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=4 status=0 QTime=6
+2018-12-19 08:33:49.651 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545208429426} status=0 QTime=1
+2018-12-19 08:33:49.814 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545208429427} status=0 QTime=163
+2018-12-19 08:35:09.811 INFO  (qtp296347592-18) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/ocr_front/storage/app/files/images/1545208492arab-doc-1.jpg (1620268558379384832)]} 0 4
+2018-12-19 08:35:09.833 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620268558405599232,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-19 08:35:09.834 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620268558405599232
+2018-12-19 08:35:10.713 INFO  (qtp296347592-21) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@156c9a8b[ocr] main]
+2018-12-19 08:35:10.717 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@156c9a8b[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_j(7.5.0):C1) Uninverting(_k(7.5.0):C1) Uninverting(_l(7.5.0):C1)))}
+2018-12-19 08:35:10.717 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-19 08:35:10.719 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-19 08:35:10.720 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@156c9a8b[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_j(7.5.0):C1) Uninverting(_k(7.5.0):C1) Uninverting(_l(7.5.0):C1)))}
+2018-12-19 08:35:10.721 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 888
+2018-12-19 08:38:01.230 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=5 status=0 QTime=11
+2018-12-19 08:38:32.298 INFO  (qtp296347592-19) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/ocr_front/storage/app/files/images/1545208711Name.PNG (1620268770704490496)]} 0 2
+2018-12-19 08:38:32.300 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620268770707636224,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-19 08:38:32.300 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620268770707636224
+2018-12-19 08:38:32.526 INFO  (qtp296347592-40) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@e0dadc9[ocr] main]
+2018-12-19 08:38:32.527 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@e0dadc9[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_j(7.5.0):C1) Uninverting(_k(7.5.0):C1) Uninverting(_l(7.5.0):C1) Uninverting(_m(7.5.0):C1)))}
+2018-12-19 08:38:32.528 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-19 08:38:32.529 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-19 08:38:32.533 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@e0dadc9[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_j(7.5.0):C1) Uninverting(_k(7.5.0):C1) Uninverting(_l(7.5.0):C1) Uninverting(_m(7.5.0):C1)))}
+2018-12-19 08:38:32.534 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 234
+2018-12-19 08:38:43.184 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545208429602} hits=6 status=0 QTime=0
+2018-12-19 08:38:56.455 INFO  (qtp296347592-19) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=58
+2018-12-19 08:39:42.464 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=7
+2018-12-19 08:46:26.800 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=12
+2018-12-19 08:47:38.386 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=10
+2018-12-19 08:47:41.683 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:???&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=47
+2018-12-19 08:47:53.083 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=11
+2018-12-19 08:47:59.975 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:???&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=0
+2018-12-19 08:48:23.898 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=6
+2018-12-19 08:48:27.224 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:???&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=0
+2018-12-19 08:48:31.260 ERROR (qtp296347592-16) [   x:ocr] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'content:': Encountered "<EOF>" at line 1, column 8.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2541)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:709)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:515)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'content:': Encountered "<EOF>" at line 1, column 8.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 41 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 8.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:325)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 44 more
+
+2018-12-19 08:48:31.274 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} status=400 QTime=78
+2018-12-19 08:50:33.931 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=16
+2018-12-19 08:50:39.206 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:???&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-19 08:50:42.026 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=18
+2018-12-19 09:58:57.974 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=5
+2018-12-19 09:59:59.631 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=4
+2018-12-19 21:57:49.174 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:???&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=2
+2018-12-19 21:57:54.959 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=6
+2018-12-23 07:44:38.013 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545551076930} status=0 QTime=165
+2018-12-23 07:44:38.536 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545551076931} status=0 QTime=689
+2018-12-23 07:44:38.729 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545551076931} status=0 QTime=190
+2018-12-23 07:44:42.116 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545551076930} status=0 QTime=0
+2018-12-23 07:44:42.213 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/replication params={wt=json&command=details&_=1545551082106} status=0 QTime=83
+2018-12-23 07:44:42.213 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1545551076932&ts=1545551076932} status=503 QTime=13
+2018-12-23 07:44:42.263 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545551076931} status=0 QTime=145
+2018-12-23 07:44:42.481 INFO  (qtp296347592-19) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1545551082105} status=0 QTime=362
+2018-12-23 07:44:42.579 INFO  (qtp296347592-18) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/system params={wt=json&_=1545551082106} status=0 QTime=447
+2018-12-23 07:44:44.706 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545551076930} status=0 QTime=0
+2018-12-23 07:44:44.812 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545551076931} status=0 QTime=105
+2018-12-23 07:44:44.917 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545551082105} status=0 QTime=208
+2018-12-23 07:44:44.971 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545551084675} status=0 QTime=260
+2018-12-23 07:44:45.541 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545551082105} status=0 QTime=505
+2018-12-23 08:12:17.067 INFO  (qtp296347592-17) [   x:ocr] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at E:\Hassan\Solr\solr-7.5.0\server\solr\ocr\conf\managed-schema
+2018-12-23 08:12:17.308 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/schema params={wt=json&_=1545551084674} status=0 QTime=1870
+2018-12-23 08:12:18.862 INFO  (qtp296347592-49) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545551084675} status=0 QTime=5
+2018-12-23 08:12:18.864 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545551082105} status=0 QTime=13
+2018-12-23 08:12:18.912 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545551082105} status=0 QTime=15
+2018-12-23 08:12:24.936 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545551076930} status=0 QTime=0
+2018-12-23 08:12:24.942 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545551082105} status=0 QTime=1
+2018-12-23 08:12:24.952 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545551084675} status=0 QTime=0
+2018-12-23 08:12:25.025 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545551082105} status=0 QTime=0
+2018-12-23 08:12:25.072 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545551076931} status=0 QTime=135
+2018-12-23 08:16:52.650 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=344
+2018-12-23 08:18:42.663 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 86
+2018-12-23 08:18:42.687 ERROR (qtp296347592-48) [   x:ocr] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: ERROR: [doc=C:/xampp/htdocs/ocr_front/storage/app/files/images/1545553116English_Chars_Numbers.PNG] multiple values encountered for non multiValued field hocr: [hassan, boda, rexi, mina]
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:155)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:102)
+	at org.apache.solr.update.DirectUpdateHandler2.updateDocOrDocValues(DirectUpdateHandler2.java:962)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:341)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:288)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:235)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:67)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:970)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1186)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:653)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:475)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldNameMutatingUpdateProcessorFactory$1.processAdd(FieldNameMutatingUpdateProcessorFactory.java:75)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AbstractDefaultValueUpdateProcessorFactory$DefaultValueUpdateProcessor.processAdd(AbstractDefaultValueUpdateProcessorFactory.java:92)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:98)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:188)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readIterator(JavaBinUpdateRequestCodec.java:144)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:311)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:256)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readNamedList(JavaBinUpdateRequestCodec.java:130)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:276)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:256)
+	at org.apache.solr.common.util.JavaBinCodec.unmarshal(JavaBinCodec.java:178)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec.unmarshal(JavaBinUpdateRequestCodec.java:195)
+	at org.apache.solr.handler.loader.JavabinLoader.parseAndLoadDocs(JavabinLoader.java:109)
+	at org.apache.solr.handler.loader.JavabinLoader.load(JavabinLoader.java:55)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:97)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:68)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2541)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:709)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:515)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-12-23 08:19:18.760 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=3
+2018-12-23 08:20:32.648 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545208429602} hits=6 status=0 QTime=2
+2018-12-23 08:20:44.096 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545553243601} status=0 QTime=0
+2018-12-23 08:20:44.226 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545553243603} status=0 QTime=124
+2018-12-23 08:20:49.860 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545553243994} hits=6 status=0 QTime=0
+2018-12-23 08:21:10.019 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545553243601} status=0 QTime=0
+2018-12-23 08:21:10.039 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545553269903} status=0 QTime=0
+2018-12-23 08:21:10.039 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545553269901} status=0 QTime=1
+2018-12-23 08:21:10.136 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545553243603} status=0 QTime=115
+2018-12-23 08:21:10.236 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545553269901} status=0 QTime=1
+2018-12-23 08:21:13.356 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545553243601} status=0 QTime=0
+2018-12-23 08:21:13.360 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545553269901} status=0 QTime=1
+2018-12-23 08:21:13.361 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545553269903} status=0 QTime=0
+2018-12-23 08:21:13.424 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545553269901} status=0 QTime=0
+2018-12-23 08:21:13.504 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545553243603} status=0 QTime=147
+2018-12-23 08:21:19.156 INFO  (qtp296347592-40) [   x:ocr] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at E:\Hassan\Solr\solr-7.5.0\server\solr\ocr\conf\managed-schema
+2018-12-23 08:21:19.247 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/schema params={wt=json&_=1545553269902} status=0 QTime=120
+2018-12-23 08:21:20.869 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545553243601} status=0 QTime=0
+2018-12-23 08:21:20.874 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545553269901} status=0 QTime=1
+2018-12-23 08:21:20.886 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545553269903} status=0 QTime=11
+2018-12-23 08:21:20.935 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545553269901} status=0 QTime=0
+2018-12-23 08:21:21.014 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545553243603} status=0 QTime=144
+2018-12-23 08:21:37.771 INFO  (qtp296347592-17) [   x:ocr] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at E:\Hassan\Solr\solr-7.5.0\server\solr\ocr\conf\managed-schema
+2018-12-23 08:21:37.818 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/schema params={wt=json&_=1545553269902} status=0 QTime=101
+2018-12-23 08:21:39.337 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545553269901} status=0 QTime=3
+2018-12-23 08:21:39.339 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545553269903} status=0 QTime=1
+2018-12-23 08:21:39.431 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545553269901} status=0 QTime=57
+2018-12-23 08:21:44.939 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545553243601} status=0 QTime=0
+2018-12-23 08:21:44.945 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1545553269901} status=0 QTime=1
+2018-12-23 08:21:44.950 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/config params={wt=json&_=1545553269903} status=0 QTime=0
+2018-12-23 08:21:45.019 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1545553269901} status=0 QTime=1
+2018-12-23 08:21:45.081 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545553243603} status=0 QTime=140
+2018-12-23 08:22:21.192 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/ocr_front/storage/app/files/images/1545553337English_Chars_Numbers.PNG (1620630140009578496)]} 0 281
+2018-12-23 08:22:21.205 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620630140297936896,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 08:22:21.205 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620630140297936896
+2018-12-23 08:22:21.813 INFO  (qtp296347592-41) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@2a7a852[ocr] main]
+2018-12-23 08:22:21.869 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2a7a852[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_j(7.5.0):C1) Uninverting(_k(7.5.0):C1) Uninverting(_l(7.5.0):C1) Uninverting(_m(7.5.0):C1) Uninverting(_n(7.5.0):C1)))}
+2018-12-23 08:22:21.882 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 08:22:21.882 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 08:22:21.976 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@2a7a852[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.5.0):C1) Uninverting(_g(7.5.0):C1) Uninverting(_j(7.5.0):C1) Uninverting(_k(7.5.0):C1) Uninverting(_l(7.5.0):C1) Uninverting(_m(7.5.0):C1) Uninverting(_n(7.5.0):C1)))}
+2018-12-23 08:22:21.976 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 793
+2018-12-23 08:22:39.123 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=7 status=0 QTime=202
+2018-12-23 08:22:47.223 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545553243601} status=0 QTime=0
+2018-12-23 08:22:47.336 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545553243603} status=0 QTime=111
+2018-12-23 08:22:49.355 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545553243994} hits=7 status=0 QTime=0
+2018-12-23 08:23:15.896 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q='%25hassan%25'&_=1545553243994} hits=0 status=0 QTime=61
+2018-12-23 08:23:28.120 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q='%25hassan%25'&_=1545553243994} hits=0 status=0 QTime=0
+2018-12-23 08:23:41.108 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q='*hass*'&_=1545553243994} hits=0 status=0 QTime=74
+2018-12-23 08:23:48.894 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q='hassan'&_=1545553243994} hits=0 status=0 QTime=0
+2018-12-23 08:23:58.452 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545553243994} hits=7 status=0 QTime=0
+2018-12-23 11:35:29.726 INFO  (qtp296347592-21) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@5f2e4f36[ocr] realtime]
+2018-12-23 11:35:29.726 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620642291752370176,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 11:35:29.726 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620642291752370176
+2018-12-23 11:35:29.776 INFO  (qtp296347592-21) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@65eb7e15[ocr] main]
+2018-12-23 11:35:29.821 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@65eb7e15[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-23 11:35:29.822 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 11:35:29.824 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 11:35:29.828 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@65eb7e15[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-23 11:35:29.962 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true}{deleteByQuery=*:* (-1620642291688407040),commit=} 0 333
+2018-12-23 11:35:38.247 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545553243994} hits=0 status=0 QTime=0
+2018-12-23 11:35:50.170 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=0 status=0 QTime=0
+2018-12-23 11:38:30.850 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=0 status=0 QTime=1
+2018-12-23 11:39:47.304 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=0 status=0 QTime=0
+2018-12-23 11:40:37.325 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/ocr_front/storage/app/files/images/1545565209D1.tif (1620642614285959168)]} 0 8
+2018-12-23 11:40:37.383 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620642614354116608,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 11:40:37.383 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620642614354116608
+2018-12-23 11:40:37.711 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@72f07e8c[ocr] main]
+2018-12-23 11:40:37.774 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@72f07e8c[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_o(7.5.0):C1)))}
+2018-12-23 11:40:37.774 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 11:40:37.774 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 11:40:37.774 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@72f07e8c[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_o(7.5.0):C1)))}
+2018-12-23 11:40:37.774 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 405
+2018-12-23 11:40:46.924 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=6
+2018-12-23 11:40:58.519 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545553243994} hits=1 status=0 QTime=0
+2018-12-23 11:43:39.910 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@5ac948f9[ocr] realtime]
+2018-12-23 11:43:39.910 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620642805747548161,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 11:43:39.910 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620642805747548161
+2018-12-23 11:43:40.002 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@4f8946a0[ocr] main]
+2018-12-23 11:43:40.004 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4f8946a0[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-23 11:43:40.004 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 11:43:40.010 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@4f8946a0[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-23 11:43:40.017 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 11:43:40.034 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true}{deleteByQuery=*:* (-1620642805747548160),commit=} 0 121
+2018-12-23 11:43:44.331 INFO  (qtp296347592-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545565424155} status=0 QTime=0
+2018-12-23 11:43:44.482 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545565424156} status=0 QTime=150
+2018-12-23 11:43:45.947 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545565424290} hits=0 status=0 QTime=0
+2018-12-23 11:43:54.398 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=0 status=0 QTime=0
+2018-12-23 11:44:55.682 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/ocr_front/storage/app/files/images/1545565441D1.tif (1620642885197103104)]} 0 4
+2018-12-23 11:44:55.701 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620642885220171776,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 11:44:55.701 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620642885220171776
+2018-12-23 11:44:55.992 INFO  (qtp296347592-48) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@4892296[ocr] main]
+2018-12-23 11:44:55.998 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4892296[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(7.5.0):C1)))}
+2018-12-23 11:44:55.998 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 11:44:56.000 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 11:44:56.002 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@4892296[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(7.5.0):C1)))}
+2018-12-23 11:44:56.003 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 302
+2018-12-23 11:45:03.855 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=2
+2018-12-23 11:45:13.841 INFO  (qtp296347592-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545565513686} status=0 QTime=0
+2018-12-23 11:45:13.954 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545565513686} status=0 QTime=111
+2018-12-23 11:45:15.341 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545565513793} hits=1 status=0 QTime=0
+2018-12-23 12:22:00.414 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545565513793} hits=1 status=0 QTime=0
+2018-12-23 12:22:06.519 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545565513793} hits=1 status=0 QTime=0
+2018-12-23 12:22:34.064 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[C:/xampp/htdocs/ocr_front/storage/app/files/images/1545567644arab-doc-1.jpg (1620645253285412864)]} 0 14
+2018-12-23 12:22:34.064 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620645253285412865,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 12:22:34.064 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620645253285412865
+2018-12-23 12:22:34.350 INFO  (qtp296347592-41) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@6653c9ec[ocr] main]
+2018-12-23 12:22:34.351 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6653c9ec[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(7.5.0):C1) Uninverting(_q(7.5.0):C1)))}
+2018-12-23 12:22:34.351 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 12:22:34.353 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 12:22:34.355 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@6653c9ec[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(7.5.0):C1) Uninverting(_q(7.5.0):C1)))}
+2018-12-23 12:22:34.356 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 279
+2018-12-23 12:22:38.987 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545565513793} hits=2 status=0 QTime=0
+2018-12-23 12:24:25.755 ERROR (qtp296347592-41) [   x:ocr] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field *
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1294)
+	at org.apache.solr.schema.IndexSchema.getFieldType(IndexSchema.java:1246)
+	at org.apache.solr.parser.SolrQueryParserBase.getWildcardQuery(SolrQueryParserBase.java:1189)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:779)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:421)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2541)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:709)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:515)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-12-23 12:24:25.778 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*??????*&_=1545565513793} status=400 QTime=23
+2018-12-23 12:24:30.971 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*??????*&_=1545565513793} hits=0 status=0 QTime=80
+2018-12-23 12:24:38.850 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=%25??????%25&_=1545565513793} hits=0 status=0 QTime=0
+2018-12-23 12:25:01.599 ERROR (qtp296347592-21) [   x:ocr] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field 'hocr'
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1294)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:436)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:84)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:189)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:240)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:518)
+	at org.apache.solr.parser.QueryParser.newFieldQuery(QueryParser.java:62)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:1077)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:800)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:421)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2541)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:709)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:515)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-12-23 12:25:01.599 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q='hocr':'??????'&_=1545565513793} status=400 QTime=1
+2018-12-23 12:25:15.204 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545565513793} hits=2 status=0 QTime=0
+2018-12-23 12:25:34.978 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=hocr:'?????'&_=1545565513793} hits=0 status=0 QTime=0
+2018-12-23 12:25:43.920 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=hocr:'*?????*'&_=1545565513793} hits=0 status=0 QTime=155
+2018-12-23 12:26:25.810 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=2
+2018-12-23 12:26:32.910 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:?????&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=2
+2018-12-23 12:26:38.080 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:???&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=1
+2018-12-23 12:27:57.637 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545568077296} status=0 QTime=0
+2018-12-23 12:27:57.853 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545568077296} status=0 QTime=214
+2018-12-23 12:27:57.882 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545568077296} status=0 QTime=241
+2018-12-23 12:28:00.318 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545568077296} status=0 QTime=0
+2018-12-23 12:28:00.329 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/replication params={wt=json&command=details&_=1545568080311} status=0 QTime=4
+2018-12-23 12:28:00.367 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1545568077296&ts=1545568077296} status=503 QTime=0
+2018-12-23 12:28:00.367 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1545568080310} status=0 QTime=43
+2018-12-23 12:28:00.514 INFO  (qtp296347592-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545568077296} status=0 QTime=194
+2018-12-23 12:28:00.532 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/system params={wt=json&_=1545568080310} status=0 QTime=197
+2018-12-23 12:28:01.724 INFO  (qtp296347592-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545568077296} status=0 QTime=0
+2018-12-23 12:28:01.852 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545568077296} status=0 QTime=126
+2018-12-23 12:36:55.652 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[images/1545568494d3.JPG (1620646156725911552)]} 0 37
+2018-12-23 12:36:55.675 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620646156750028800,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 12:36:55.675 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620646156750028800
+2018-12-23 12:36:55.925 INFO  (qtp296347592-48) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@47f47af8[ocr] main]
+2018-12-23 12:36:55.925 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@47f47af8[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(7.5.0):C1) Uninverting(_q(7.5.0):C1) Uninverting(_r(7.5.0):C1)))}
+2018-12-23 12:36:55.925 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 12:36:55.925 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@47f47af8[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(7.5.0):C1) Uninverting(_q(7.5.0):C1) Uninverting(_r(7.5.0):C1)))}
+2018-12-23 12:36:55.925 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 12:36:55.925 INFO  (qtp296347592-48) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 259
+2018-12-23 12:37:04.706 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=3 status=0 QTime=9
+2018-12-23 12:37:21.644 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545568081679} hits=3 status=0 QTime=0
+2018-12-23 12:45:15.501 INFO  (qtp296347592-21) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@63d3f8ac[ocr] realtime]
+2018-12-23 12:45:15.502 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620646680856625152,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 12:45:15.502 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620646680856625152
+2018-12-23 12:45:15.527 INFO  (qtp296347592-21) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@4d1484f9[ocr] main]
+2018-12-23 12:45:15.527 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4d1484f9[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-23 12:45:15.527 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 12:45:15.527 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@4d1484f9[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-23 12:45:15.527 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 12:45:15.558 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true}{deleteByQuery=*:* (-1620646680851382272),commit=} 0 66
+2018-12-23 12:45:40.644 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545568081679} hits=0 status=0 QTime=0
+2018-12-23 12:46:05.857 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=0 status=0 QTime=0
+2018-12-23 12:47:59.812 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[images/1545569185d2.tif (1620646853139759104)]} 0 6
+2018-12-23 12:47:59.816 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620646853152342016,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 12:47:59.816 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620646853152342016
+2018-12-23 12:48:00.059 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@7e2553bf[ocr] main]
+2018-12-23 12:48:00.059 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7e2553bf[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1)))}
+2018-12-23 12:48:00.059 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 12:48:00.074 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 12:48:00.074 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@7e2553bf[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1)))}
+2018-12-23 12:48:00.074 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 273
+2018-12-23 12:48:49.078 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=2
+2018-12-23 13:00:07.345 INFO  (qtp296347592-49) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[images/1545569897arab-doc-1.jpg (1620647616017596416)]} 0 4
+2018-12-23 13:00:07.347 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620647616023887872,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 13:00:07.347 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620647616023887872
+2018-12-23 13:00:07.619 INFO  (qtp296347592-41) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@fd28c1f[ocr] main]
+2018-12-23 13:00:07.621 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@fd28c1f[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1)))}
+2018-12-23 13:00:07.621 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 13:00:07.622 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 13:00:07.624 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@fd28c1f[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1)))}
+2018-12-23 13:00:07.625 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 278
+2018-12-23 13:08:01.392 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=3
+2018-12-23 13:09:08.742 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[images/1545570492D1.tif (1620648183715594240)]} 0 3
+2018-12-23 13:09:08.744 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620648183719788544,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 13:09:08.744 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620648183719788544
+2018-12-23 13:09:09.084 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@6a7f00ea[ocr] main]
+2018-12-23 13:09:09.086 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6a7f00ea[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1) Uninverting(_u(7.5.0):C1)))}
+2018-12-23 13:09:09.086 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 13:09:09.091 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@6a7f00ea[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1) Uninverting(_u(7.5.0):C1)))}
+2018-12-23 13:09:09.096 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 13:09:09.097 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 352
+2018-12-23 13:11:34.340 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=3 status=0 QTime=4
+2018-12-23 13:12:14.023 INFO  (qtp296347592-21) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[pdfs/1545570724bsmAllah.pdf (1620648377996804096)]} 0 3
+2018-12-23 13:12:14.026 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620648378002046976,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 13:12:14.026 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620648378002046976
+2018-12-23 13:12:14.210 INFO  (qtp296347592-22) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@5e21ce89[ocr] main]
+2018-12-23 13:12:14.211 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5e21ce89[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1) Uninverting(_u(7.5.0):C1) Uninverting(_v(7.5.0):C1)))}
+2018-12-23 13:12:14.215 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 13:12:14.215 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 13:12:14.216 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@5e21ce89[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1) Uninverting(_u(7.5.0):C1) Uninverting(_v(7.5.0):C1)))}
+2018-12-23 13:12:14.216 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 191
+2018-12-23 13:12:39.564 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=4 status=0 QTime=16
+2018-12-23 13:19:56.608 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[pdfs/1545571191bsmAllah.pdf (1620648863051284480)]} 0 3
+2018-12-23 13:19:56.624 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620648863071207424,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 13:19:56.624 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620648863071207424
+2018-12-23 13:19:56.780 INFO  (qtp296347592-40) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@772902f4[ocr] main]
+2018-12-23 13:19:56.795 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@772902f4[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1) Uninverting(_u(7.5.0):C1) Uninverting(_v(7.5.0):C1) Uninverting(_w(7.5.0):C1)))}
+2018-12-23 13:19:56.795 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 13:19:56.813 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 13:19:56.814 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@772902f4[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1) Uninverting(_u(7.5.0):C1) Uninverting(_v(7.5.0):C1) Uninverting(_w(7.5.0):C1)))}
+2018-12-23 13:19:56.814 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 190
+2018-12-23 13:24:02.894 INFO  (qtp296347592-40) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[pdfs/1545571255arabic.pdf (1620649121284096000)]} 0 68
+2018-12-23 13:24:02.895 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620649121305067520,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 13:24:02.895 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620649121305067520
+2018-12-23 13:24:03.245 INFO  (qtp296347592-41) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@7f5b93d5[ocr] main]
+2018-12-23 13:24:03.261 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7f5b93d5[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1) Uninverting(_u(7.5.0):C1) Uninverting(_v(7.5.0):C1) Uninverting(_w(7.5.0):C1) Uninverting(_x(7.5.0):C1)))}
+2018-12-23 13:24:03.261 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 13:24:03.261 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 13:24:03.261 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@7f5b93d5[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_s(7.5.0):C1) Uninverting(_t(7.5.0):C1) Uninverting(_u(7.5.0):C1) Uninverting(_v(7.5.0):C1) Uninverting(_w(7.5.0):C1) Uninverting(_x(7.5.0):C1)))}
+2018-12-23 13:24:03.261 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 370
+2018-12-23 13:30:57.053 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=6 status=0 QTime=6
+2018-12-23 13:31:14.108 INFO  (qtp296347592-17) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@361d1d14[ocr] realtime]
+2018-12-23 13:31:14.108 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620649573464670208,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 13:31:14.108 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620649573464670208
+2018-12-23 13:31:14.123 INFO  (qtp296347592-17) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@18a33ebc[ocr] main]
+2018-12-23 13:31:14.123 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@18a33ebc[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-23 13:31:14.123 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 13:31:14.139 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 13:31:14.139 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@18a33ebc[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-12-23 13:31:14.186 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={commit=true}{deleteByQuery=*:* (-1620649573447892992),commit=} 0 90
+2018-12-23 13:31:18.475 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=0 status=0 QTime=0
+2018-12-23 13:34:56.644 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=0 status=0 QTime=1
+2018-12-23 13:35:59.923 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[images/1545572106D1.tif (1620649873160273920)]} 0 3
+2018-12-23 13:35:59.924 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620649873164468224,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 13:35:59.924 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620649873164468224
+2018-12-23 13:36:00.200 INFO  (qtp296347592-20) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@2de5c6eb[ocr] main]
+2018-12-23 13:36:00.215 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2de5c6eb[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_y(7.5.0):C1)))}
+2018-12-23 13:36:00.215 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 13:36:00.215 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 13:36:00.215 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@2de5c6eb[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_y(7.5.0):C1)))}
+2018-12-23 13:36:00.215 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 304
+2018-12-23 13:36:10.818 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:36:29.587 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545568081679} hits=1 status=0 QTime=0
+2018-12-23 13:37:18.150 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:37:46.113 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:39:44.768 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&hl=on&fl=highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:40:36.311 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&hl=on&fl=highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:40:51.182 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&hl=on&fl=highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:43:36.364 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&hl=on&fl=highlighting,hocr&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:43:46.903 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&hl=on&fl=highlighting,hocr&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:45:39.351 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&hl=on&fl=highlighting,hocr&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:46:34.580 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&hl=on&fl=highlighting,hocr&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:47:18.671 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&hl=on&fl=highlighting,hocr&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:47:40.919 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:47:52.778 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:48:07.436 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:49:36.049 INFO  (qtp296347592-49) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:51:27.892 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:51:31.729 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:51:47.430 INFO  (qtp296347592-49) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:51:55.950 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:52:56.836 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:53:02.294 INFO  (qtp296347592-49) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:53:38.332 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:53:41.157 INFO  (qtp296347592-49) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:54:32.407 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:54:39.388 INFO  (qtp296347592-49) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:56:18.699 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:56:20.124 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 13:58:11.264 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 13:58:15.388 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 14:00:15.450 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 14:01:06.503 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 14:01:17.076 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 14:02:55.160 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 14:02:56.520 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 15:17:13.753 INFO  (qtp296347592-49) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&hl=on&hl.fl=content&_=1545568081679} hits=1 status=0 QTime=37
+2018-12-23 15:17:40.605 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:'?????'&hl=on&hl.fl=content&_=1545568081679} hits=1 status=0 QTime=1
+2018-12-23 15:18:42.785 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=hocr:'563'&hl=on&hl.fl=hocr&_=1545568081679} hits=0 status=0 QTime=0
+2018-12-23 15:18:59.992 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=hocr:*563*&hl=on&hl.fl=hocr&_=1545568081679} hits=1 status=0 QTime=214
+2018-12-23 15:20:55.532 INFO  (qtp296347592-20) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=1 status=0 QTime=1
+2018-12-23 15:23:09.390 INFO  (qtp296347592-41) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[images/1545578474d2.tif (1620656614948208640)]} 0 4
+2018-12-23 15:23:09.414 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620656614969180160,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 15:23:09.414 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620656614969180160
+2018-12-23 15:23:09.676 INFO  (qtp296347592-22) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@1da3cdf8[ocr] main]
+2018-12-23 15:23:09.676 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1da3cdf8[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_y(7.5.0):C1) Uninverting(_z(7.5.0):C1)))}
+2018-12-23 15:23:09.676 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 15:23:09.676 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@1da3cdf8[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_y(7.5.0):C1) Uninverting(_z(7.5.0):C1)))}
+2018-12-23 15:23:09.676 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 15:23:09.676 INFO  (qtp296347592-22) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 275
+2018-12-23 15:23:26.118 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=3
+2018-12-23 15:24:43.901 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545578474d2.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=0
+2018-12-23 15:25:16.634 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545572106D1.tif&fl=id,hocr&wt=php} hits=1 status=0 QTime=1
+2018-12-23 15:29:25.502 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545578965373} status=0 QTime=0
+2018-12-23 15:29:25.710 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545578965375} status=0 QTime=188
+2018-12-23 15:29:25.762 INFO  (qtp296347592-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545578965375} status=0 QTime=242
+2018-12-23 15:29:27.540 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545578965373} status=0 QTime=0
+2018-12-23 15:29:27.556 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1545578967515} status=0 QTime=1
+2018-12-23 15:29:27.568 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/replication params={wt=json&command=details&_=1545578967517} status=0 QTime=2
+2018-12-23 15:29:27.576 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1545578965376&ts=1545578965376} status=503 QTime=0
+2018-12-23 15:29:27.752 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545578965375} status=0 QTime=205
+2018-12-23 15:29:27.812 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/system params={wt=json&_=1545578967515} status=0 QTime=240
+2018-12-23 15:29:29.061 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545578965373} status=0 QTime=0
+2018-12-23 15:29:29.229 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545578965375} status=0 QTime=164
+2018-12-23 15:29:30.602 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545578968958} hits=2 status=0 QTime=0
+2018-12-23 15:35:41.845 INFO  (qtp296347592-16) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=2 status=0 QTime=3
+2018-12-23 15:38:26.841 INFO  (qtp296347592-20) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[images/1545579361d3.JPG (1620657576962162688)]} 0 19
+2018-12-23 15:38:26.858 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1620657576983134208,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-12-23 15:38:26.858 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2e368a70 commitCommandVersion:1620657576983134208
+2018-12-23 15:38:27.264 INFO  (qtp296347592-17) [   x:ocr] o.a.s.s.SolrIndexSearcher Opening [Searcher@7075fe91[ocr] main]
+2018-12-23 15:38:27.267 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7075fe91[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_y(7.5.0):C1) Uninverting(_z(7.5.0):C1) Uninverting(_10(7.5.0):C1)))}
+2018-12-23 15:38:27.268 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-12-23 15:38:27.269 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-12-23 15:38:27.271 INFO  (searcherExecutor-12-thread-1-processing-x:ocr) [   x:ocr] o.a.s.c.SolrCore [ocr] Registered new searcher Searcher@7075fe91[ocr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_y(7.5.0):C1) Uninverting(_z(7.5.0):C1) Uninverting(_10(7.5.0):C1)))}
+2018-12-23 15:38:27.271 INFO  (qtp296347592-17) [   x:ocr] o.a.s.u.p.LogUpdateProcessorFactory [ocr]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 413
+2018-12-23 15:38:37.270 INFO  (qtp296347592-49) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=content:*&hl=on&fl=id,last_modified,title,author,highlighting&hl.fragsize=0&hl.fl=content&wt=php} hits=3 status=0 QTime=6
+2018-12-23 15:38:48.226 INFO  (qtp296347592-40) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:*&_=1545578968958} hits=3 status=0 QTime=0
+2018-12-23 15:39:39.560 ERROR (qtp296347592-17) [   x:ocr] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field *
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1294)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:436)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:84)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:189)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:240)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:518)
+	at org.apache.solr.parser.QueryParser.newFieldQuery(QueryParser.java:62)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:1077)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:800)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:421)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:173)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:272)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2541)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:709)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:515)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-12-23 15:39:39.561 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=*:<???????>&_=1545578968958} status=400 QTime=1
+2018-12-23 15:39:46.171 INFO  (qtp296347592-22) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=hocr:<???????>&_=1545578968958} hits=0 status=0 QTime=0
+2018-12-23 15:39:55.662 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=hocr:*<???????>*&_=1545578968958} hits=1 status=0 QTime=12
+2018-12-23 15:41:02.513 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=hocr:<???????>*&_=1545578968958} hits=1 status=0 QTime=1
+2018-12-23 15:41:08.202 INFO  (qtp296347592-41) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=hocr:*<???????>&_=1545578968958} hits=0 status=0 QTime=4
+2018-12-23 15:41:55.900 INFO  (qtp296347592-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1545578965373} status=0 QTime=0
+2018-12-23 15:41:55.997 INFO  (qtp296347592-17) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/file params={wt=json&_=1545579715893} status=0 QTime=91
+2018-12-23 15:41:56.050 INFO  (qtp296347592-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1545578965375} status=0 QTime=147
+2018-12-23 15:41:56.090 INFO  (qtp296347592-21) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1545579715893} status=0 QTime=84
+2018-12-23 15:46:31.559 INFO  (qtp296347592-48) [   x:ocr] o.a.s.c.S.Request [ocr]  webapp=/solr path=/select params={q=id:images/1545579361d3.JPG&fl=id,hocr&wt=php} hits=1 status=0 QTime=1

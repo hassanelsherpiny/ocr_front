@@ -14,7 +14,6 @@
         <script src="{{asset('js/jQuery-File-Upload-master/js/jquery.iframe-transport.js')}}"></script>
         <script src="{{asset('js/jQuery-File-Upload-master/js/jquery.fileupload.js')}}"></script>
         <link rel="stylesheet" href="{{ asset('js/grid-2.4.1/pqgrid.min.css')}}" />
-        <link rel="stylesheet" href="{{ asset('css/jquery-ui.theme.css')}}" />
         <script src="{{ asset('js/uploader-master/src/js/jquery.dm-uploader.js')}}"></script>
         <script type="text/javascript" src="{{ asset('js/grid-2.4.1/pqgrid.min.js')}}" ></script>   
         <meta charset="utf-8">

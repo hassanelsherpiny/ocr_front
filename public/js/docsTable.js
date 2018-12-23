@@ -1,31 +1,60 @@
+
+
 function initDetail(ui) {
     var rowData = ui.rowData;
-    console.log(rowData);
+    // console.log(rowData);
     // var responseData=;
-    var $detail = $("<div style='overflow-y: scroll; height:400px;' id='pq-detail' tabindex='0'>" + highlight("/hocr.jpg", 457-20  ,108 , rechieght = 125-108, recwidth =489-457+20 ) + "</div>");
-    return $detail;
+    // var $detail = $("<div style='overflow-y: scroll; height:400px;' id='pq-detail' tabindex='0'>" + highlight("/hocr.jpg", 457-20  ,108 , rechieght = 125-108, recwidth =489-457+20 ) + "</div>");
+    // return $detail;
     var content;
+    var responseDataM;
+    var $detail;    
     $.ajax({
         url: "/DOCSAPI/details",
         method: "GET",
+        async:false,
         data: {
             id: rowData.id
         },
         success: function (responseData) {
-           console.log("<div id='pq-detail' tabindex='0'>" + highlight(responseData.imageSrc, responseData.fromtTopLefX, responseData.fromtTopLefY, rechieght = 1, recwidth = 1));
-             var $detail = $("<div id='pq-detail' tabindex='0'>" + highlight(responseData.imageSrc, responseData.fromtTopLefX, responseData.fromtTopLefY, rechieght = 1, recwidth = 1) + "</div>");
-             return $detail;
-            if (responseData.type == "image") {
-                return $("<div id='pq-detail' tabindex='0'>" + highlight(responseData.imageSrc, responseData.fromtTopLefX, responseData.fromtTopLefY, rechieght = 1, recwidth = 1) + "</div>");
+            responseDataM=responseData;
+            console.log(responseDataM[0]);
+            //  var $detail = $("<div id='pq-detail' tabindex='0'>" + highlight(responseData.imageSrc, responseData.fromtTopLefX, responseData.fromtTopLefY, rechieght = 1, recwidth = 1) + "</div>");
+            //  return $detail;
+            if (responseData[0].type == "image") {
+                $detail= $("<div style='overflow-y: scroll; height:400px;' id='pq-detail' tabindex='0'>" + highlightAdapter(responseData[0].src,responseData[0].hocr) + "</div>");
 
             } else {
-                var $detail = $("<div id='pq-detail' tabindex='0'>" + responseData.content + "</div>");
-                return $detail;
+                $detail=  $("<div style='overflow-y: scroll; height:400px;' id='pq-detail' tabindex='0'>" + responseData.content + "</div>");
             }
 
-        }
+        },
+        async:false
+
     });
+
+  //console.log(responseDataM);
+  return $detail;
 };
+
+function highlightAdapter(imageSrc,highlights)
+{
+    var highlightDivs=""
+    for (var i=0;i<highlights.length;i++)
+    {
+        var currentDiv=highlights[i].split(" ");
+        currentDiv[3]= parseInt(currentDiv[3])-parseInt(currentDiv[1]);
+        currentDiv[2]= parseInt(currentDiv[2])-parseInt(currentDiv[0]);
+        //console.log(currentDiv);
+        highlightDivs=highlightDivs+(" <div id='highlight' style='position:absolute;width:" + currentDiv[2]  + "px;height:" + currentDiv[3] + "px;top:" + currentDiv[0] + "px;left:" + currentDiv[1] + "px;background: rgba(255, 0, 0, 0.4);'></div>");
+
+        
+    }
+    //console.log(highlightDivs);
+    content = "<div id='container' style='position:relative;'>\
+    <img src='" + imageSrc + "' />"+highlightDivs+"</div>";
+    return content;
+}
 
 function highlight(imageSrc, fromtTopLefX, fromtTopLefY, rechieght = 1, recwidth = 1, maxXforScale = 0, maxYforScale = 0) {
     if (maxXforScale != 0 && maxXforScale != 0)
@@ -37,7 +66,7 @@ function highlight(imageSrc, fromtTopLefX, fromtTopLefY, rechieght = 1, recwidth
             var width = img.width;
             fromtTopLefX = fromtTopLefX * width / maxXforScale;
             fromtTopLefY = fromtTopLefY * height / maxYforScale;
-            content = "<div id='container' style='position:absolute;'>\
+            content = "<div id='container' style='position:relative;'>\
 <img src='" + imageSrc + "' />\
 <div id='highlight' style='position:absolute;width:" + recwidth + "px;height:" + rechieght + "px;top:" + fromtTopLefY + "px;left:" + fromtTopLefX + "px;\
 background: rgba(255, 0, 0, 0.4);'></div>\
@@ -47,7 +76,7 @@ background: rgba(255, 0, 0, 0.4);'></div>\
         img.src = imageSrc;
 
     } else {
-        content = "<div id='container' style='position:absolute;'>\
+        content = "<div id='container' style='position:relative;'>\
 <img src='" + imageSrc + "' />\
 <div id='highlight' style='position:absolute;width:" + recwidth + "px;height:" + rechieght + "px;top:" + fromtTopLefY + "px;left:" + fromtTopLefX + "px;\
 background: rgba(255, 0, 0, 0.4);'></div>\
@@ -58,6 +87,7 @@ background: rgba(255, 0, 0, 0.4);'></div>\
 }
 
 $(function () {
+    var types={png:"image",jpg:"image",pdf:"pdf"};
     var colM = [{
             title: "",
             minWidth: 27,
@@ -83,7 +113,7 @@ $(function () {
             function (ui) {
                 console.log(ui);
                 var id=ui.rowData.id;
-                var iconType=(id.substr(id.length - 3))+".png";
+                var iconType=types[(id.substr(id.length - 3))]+".png";
                return "<div id='"+id+"' ><a href='DOCSAPI/down?fileName="+id+"'  target='_blank'><img style='width:20%;height:20%;' src = '/"+iconType+"'' /></a></div>"; 
             }
 
@@ -118,11 +148,12 @@ $(function () {
     var obj = {
         dataModel: dataModel,
         colModel: colM,
+        virtualX: true, virtualY: true,
         pageModel: {
             type: 'local',
             rPP: 20
         },
-        height: "flex",
+        height: "100%",
         editable: false,
         selectionModel: {
             type: 'cell'
